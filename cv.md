@@ -57,6 +57,6 @@ function fakeBin(x){
 
 ## Languages
 
-**Ukrainian** - native speaker
-**Russian** - fluent
-**English** - A1 (A2 in process…)
+- **Ukrainian** - native speaker
+- **Russian** - fluent
+- **English** - A1 (A2 in process…)
