@@ -54,3 +54,9 @@ function fakeBin(x){
   _- Верстка и создание веб сайтов 2022 - Продвинутый уровень!_
 
   ***
+
+## Languages
+
+**Ukrainian** - native speaker
+**Russian** - fluent
+**English** - A1 (A2 in process…)
