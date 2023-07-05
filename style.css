@@ -45,8 +45,6 @@ body {
   display: flex;
   gap: 30px;
 }
-.navigation__item {
-}
 .navigation__link {
   font-size: 20px;
   transition: all .3s;
@@ -60,14 +58,6 @@ body {
 .left__side {
   width: 400px;
   background-color: rgb(33, 33, 31);
-}
-.div {
-}
-.photo__wrapper {
-}
-.photo {
-}
-.section {
 }
 .contacts {
   padding: 50px 0px 50px 0px;
@@ -106,7 +96,6 @@ body {
 .contacts__link:hover .contacts__icon , .contacts__link:focus .contacts__icon {
   fill: #f0efef;
   stroke: #a7a4a4;
-  /* fill: red; */
 }
 .skills {
   padding: 50px 0px 50px 0px;
@@ -136,8 +125,6 @@ body {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-}
-.education__text {
 }
 .right__side {
   width: 800px;
@@ -181,8 +168,6 @@ body {
 .languages__list {
   padding: 0 50px;
 }
-.languages__item {
-}
 .languages__item:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -191,10 +176,6 @@ body {
 }
 .code__title {
   margin-bottom: 50px;
-}
-.code__wrapper {
-}
-.code__text {
 }
 .projects {
   padding: 50px 0px 50px 0px;
@@ -207,13 +188,11 @@ body {
   display: flex;
   gap: 30;
 }
-.project__item {
-}
 .project__link {
+  transition: all .3s;
 }
-.project__image {
-}
-.project__text {
+.project__link:hover span, .project__link:focus span {
+  color: #a7a4a4;
 }
 .footer {
   padding: 30px 50px;
@@ -228,8 +207,6 @@ body {
   fill: #f0efef;
   transition: all .3s;
 }
-.footer__text {
-}
 .footer__link {
   display: flex;
   align-items: center;
@@ -242,9 +219,6 @@ body {
 .footer__link:hover .footer__icon, .footer__icon:focus .footer__icon {
   fill: #a7a4a4;
 }
-
-
-
 .contacts__icon {
   fill: #a7a4a4;
   stroke: #f0efef;
@@ -256,5 +230,4 @@ body {
 .contacts__link:hover .contacts__icon , .contacts__link:focus .contacts__icon {
   fill: #f0efef;
   stroke: #a7a4a4;
-  /* fill: red; */
 }
