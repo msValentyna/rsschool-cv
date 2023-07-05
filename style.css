@@ -1,5 +1,261 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/* html, body {
+  width: 100%;
+  height: 100%;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+ul, ol, li {
+  list-style: none;
+}
+a, a:visited {
+  text-decoration: none;
+  font-family: inherit;
+  color: #f0efef;
+}
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #f0efef;
+  background-color: rgb(43, 43, 43);
+}
+.wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  padding: 30px 0;
+  background-color: rgb(33, 33, 33);
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__navigation {
+  display: flex;
+  gap: 30px;
+}
+.navigation__item {
+}
+.navigation__link {
+  font-size: 20px;
+  transition: all .3s;
+}
+.navigation__link:hover, .navigation__link:focus {
+  color: #a7a4a4;
+}
+.main__content {
+  display: flex;
+}
+.left__side {
+  width: 400px;
+  background-color: rgb(33, 33, 31);
+}
+.div {
+}
+.photo__wrapper {
+}
+.photo {
+}
+.section {
+}
+.contacts {
+  padding: 50px 0px 50px 0px;
+}
+.contacts__title {
+  margin-bottom: 50px;
+}
+.title-left {
+  padding: 5px 50px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  background-color: rgb(43, 43, 43);
+}
+.contacts__list {
+  padding: 0 50px;
+}
+.contacts__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  vertical-align: middle;
+  transition: all .3s;
+}
+.contacts__icon {
+  fill: #a7a4a4;
+  stroke: #f0efef;
+  transition: all .3s;
+}
+.contacts__link:hover, .contacts__link:focus {
+  color: #a7a4a4;
+}
+.contacts__link:hover .contacts__icon , .contacts__link:focus .contacts__icon {
+  fill: #f0efef;
+  stroke: #a7a4a4;
+  /* fill: red; */
+}
+.skills {
+  padding: 50px 0px 50px 0px;
+}
+.skills__title {
+  margin-bottom: 50px;
+}
+.skills__list {
+  padding: 0 50px;
+}
+.skills__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.education {
+  padding: 50px 0px 50px 0px;
+}
+.education__title {
+  margin-bottom: 50px;
+}
+.education__list {
+  padding: 0 50px;
+}
+.education__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.education__subtitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.education__text {
+}
+.right__side {
+  width: 800px;
+  background-color: #212121;
+}
+.hero {
+  padding: 50px 50px 100px 50px;
+}
+.hero__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.hero__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+.about-me {
+  padding: 50px 0px 50px 0px;
+}
+.about-me__title {
+  margin-bottom: 50px;
+}
+.title-right {
+  padding: 5px 50px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  background-color: rgb(43, 43, 43);
+}
+.about-me__text {
+  padding: 0 50px;
+  line-height: 1.5;
+}
+.languages {
+  padding: 50px 0px 50px 0px;
+}
+.languages__title {
+  margin-bottom: 50px;
+}
+.languages__list {
+  padding: 0 50px;
+}
+.languages__item {
+}
+.languages__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.code {
+  padding: 50px 0px 50px 0px;
+}
+.code__title {
+  margin-bottom: 50px;
+}
+.code__wrapper {
+}
+.code__text {
+}
+.projects {
+  padding: 50px 0px 50px 0px;
+}
+.projects__title {
+  margin-bottom: 50px;
+}
+.projects__wrapper {
+  padding: 0 50px;
+  display: flex;
+  gap: 30;
+}
+.project__item {
+}
+.project__link {
+}
+.project__image {
+}
+.project__text {
+}
+.footer {
+  padding: 30px 50px;
+  background-color: rgb(33, 33, 33);
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__icon {
+  fill: #f0efef;
+  transition: all .3s;
+}
+.footer__text {
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all .3s;
+}
+.footer__link:hover, .footer__link:focus {
+  color: #a7a4a4;
+}
+.footer__link:hover .footer__icon, .footer__icon:focus .footer__icon {
+  fill: #a7a4a4;
+}
+
+
+
+.contacts__icon {
+  fill: #a7a4a4;
+  stroke: #f0efef;
+  transition: all .3s;
+}
+.contacts__link:hover, .contacts__link:focus {
+  color: #a7a4a4;
+}
+.contacts__link:hover .contacts__icon , .contacts__link:focus .contacts__icon {
+  fill: #f0efef;
+  stroke: #a7a4a4;
+  /* fill: red; */
 }
